@@ -1,6 +1,6 @@
 {
   "name": "@exist08/react-native-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The HTML-like <select> component React Native always deserved. Zero dependencies, fully typed, themeable, and customizable.",
   "main": "dist/index.js",
   "module": "dist/index.js",

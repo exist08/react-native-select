@@ -1,11 +1,11 @@
-# react-native-select
+# @exist08/react-native-select
 
 > **The HTML `<select>` component React Native always deserved.**
 > One import. Zero dependencies. Works exactly how you'd expect.
 
-[![npm version](https://img.shields.io/npm/v/react-native-select.svg)](https://www.npmjs.com/package/react-native-select)
-[![license](https://img.shields.io/npm/l/react-native-select.svg)](./LICENSE)
-[![types](https://img.shields.io/npm/types/react-native-select.svg)](https://www.npmjs.com/package/react-native-select)
+[![npm version](https://img.shields.io/npm/v/@exist08/react-native-select.svg)](https://www.npmjs.com/package/@exist08/react-native-select)
+[![license](https://img.shields.io/npm/l/@exist08/react-native-select.svg)](./LICENSE)
+[![types](https://img.shields.io/npm/types/@exist08/react-native-select.svg)](https://www.npmjs.com/package/@exist08/react-native-select)
 
 If you've ever fought with `Picker`, installed three different dropdown libraries, or tried to style a `Modal` from scratch just to get a basic `<select>` — this is for you.
 
@@ -29,9 +29,9 @@ If you've ever fought with `Picker`, installed three different dropdown librarie
 ## Installation
 
 ```sh
-npm install react-native-select
+npm install @exist08/react-native-select
 # or
-yarn add react-native-select
+yarn add @exist08/react-native-select
 ```
 
 No native modules. No linking. Just install and use.
@@ -43,7 +43,7 @@ No native modules. No linking. Just install and use.
 ```tsx
 import React, { useState } from "react";
 import { View, TouchableOpacity, Text } from "react-native";
-import Select from "react-native-select";
+import Select from "@exist08/react-native-select";
 
 export default function App() {
   const [visible, setVisible] = useState(false);
@@ -115,7 +115,7 @@ type Status = "active" | "inactive" | "pending";
 ### Dark mode
 
 ```tsx
-import Select, { darkTheme } from "react-native-select";
+import Select, { darkTheme } from "@exist08/react-native-select";
 
 <Select theme={darkTheme} ... />
 ```
@@ -262,4 +262,4 @@ Fine-grained style props — all accept `StyleProp<ViewStyle | TextStyle>`:
 
 ## License
 
-MIT © [YOUR_NAME](https://github.com/YOUR_USERNAME)
+MIT © [exist08](https://github.com/exist08)

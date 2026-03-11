@@ -1,0 +1,37 @@
+# Development files
+src/
+example/
+.git/
+.gitignore
+tsconfig.json
+*.test.ts
+*.test.tsx
+__tests__/
+
+# Demo assets (keep these OUT of the published package)
+*.mp4
+*.gif
+*.mov
+*.png
+*.jpg
+*.jpeg
+demo/
+demos/
+assets/
+screenshots/
+img_slider.mp4
+img_slider_200.mp4
+img_slider.gif
+img_slider_200.gif
+
+# npm pack artifacts
+
+# Build artifacts that shouldn't be in the package
+node_modules/
+.DS_Store
+npm-debug.log
+# npm pack artifacts - CRITICAL
+*.tgz
+*.tar.gz
+*.tgz
+*.tar.gz
